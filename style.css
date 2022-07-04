@@ -2,10 +2,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,100;1,400&display=swap" rel="stylesheet">);
 
-:root{
-    --main-color: #e84242;
+:root
+{
+    --main-color: #d10a11;
     --black-color: #0e0e0e;
-    --border: 0.1rem solid #rgba(255,255,255,0.4);
+    --border: 0.1rem solid rgba(255,255,255,0.4);
     }
 
 
@@ -21,11 +22,105 @@
     transition: 0;
 }
 
+/*! base html codes */
 
+html 
+{
 
-.logo img{
+    font-size: 62.5%,
+    overfloow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behovior: smooth;
+
+}
+
+body 
+{
+
+    background-color: var(--main-color);
+    height: 200vh;
+     
+}
+
+.title 
+{
+
+    font-size: 1.25;
+}
+
+.logo img
+{
     height: 8rem;
 
 }
 
+/* header start*/
+.header .logo img 
+{
+    height: rem;
+}
 
+.header 
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    position: sticky;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a 
+{
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar a:hover
+{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+
+.header .buttons button
+{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+
+/* header end */
+
+/* Home Start */
+
+.home
+{
+    min-height: 100vh;
+    background: url(../images/anasayfatümtrading.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -12.2rem;
+}
+
+.home .content
+{
+    max-width: 60rem;
+}
+
+.home .content h3
+{
+    font-size: 6rem;
+}
+
+
+/* Home end */
