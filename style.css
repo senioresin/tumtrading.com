@@ -47,6 +47,19 @@ section
     padding: 3.5rem 7%;
 }
 
+.btn
+{
+margin-top: 1rem;
+display: inline-block;
+padding: 2rem 3.75rem;
+border-radius: 30rem;
+font-size: 1.7rem
+color: #fff;
+background-color: var(--black-color);
+cursor: pointer;
+}
+
+
 .title 
 {
 
@@ -67,7 +80,7 @@ section
 
 .header 
 {
-    background-color: transparent;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
