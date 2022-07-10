@@ -144,3 +144,33 @@ cursor: pointer;
 
 
 /* Home end */
+
+/* uzmanlıklarımız start */
+
+.Uzmanlıklarımız .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+{
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 3rem;,
+    background-color: #fff;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space between;
+}
+
+.Uzmanlıklarımız .box-container .box img
+{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+/* uzmanlıklarımız end*/
