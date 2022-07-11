@@ -80,7 +80,7 @@ cursor: pointer;
 
 .header 
 {
-    background-color: white;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
