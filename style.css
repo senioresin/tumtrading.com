@@ -293,6 +293,7 @@ cursor: pointer;
   
   .footer .links a.active {
     background-color: var(--black-color);
+    
   }
   
   .footer .credit {
