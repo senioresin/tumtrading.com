@@ -169,8 +169,10 @@ cursor: pointer;
 
 .Uzmanlıklarımız .box-container .box img
 {
+    height: 50rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 18px;
     
 }
 
@@ -192,8 +194,10 @@ cursor: pointer;
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
-    height: 45rem;
+    height: 48rem;
     object-fit: cover;
+    border-radius: 20px;
+    
 
   }
   .contact .row form {
